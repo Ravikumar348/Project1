@@ -1,7 +1,7 @@
 import random#take random
 width=10
 height=10#10/10 board
-def print_board(snake,food):#here snake and food inside the fun
+def print_board(snake,food):#this fun gives 10/10 dotted board 
     for y in range(height):
         for x in range(width):
             if [x,y] == food:
